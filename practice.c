@@ -11,4 +11,9 @@ int main(){
 
    scanf("%d  %d  %d", &arr2[0], &arr2[1], &arr2[2]);
 
+   for(int i =0; i < 3; i ++){
+    dotProduct += arr1[i]*arr2[i];
+    //printf("%d",dotProduct);
+   }
+   printf("%d\n", dotProduct);
 }
